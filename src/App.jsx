@@ -1,5 +1,6 @@
 import "./App.css";
 import Navbar from "./components/Navbar/Navbar";
+import PriceOption from "./components/PriceOption/PriceOption";
 // import DaisyNav from "./components/DasiyNav/DaisyNav";
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
           </div>
         </div>
       </div>
+      <PriceOption></PriceOption>
     </>
   );
 }
