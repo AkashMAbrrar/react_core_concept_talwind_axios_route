@@ -1,6 +1,7 @@
 import "./App.css";
 import LineChart from "./components/LineChart/LineChart";
 import Navbar from "./components/Navbar/Navbar";
+import PhoneData from "./components/PhonesData/PhoneData";
 import PriceOption from "./components/PriceOption/PriceOption";
 // import DaisyNav from "./components/DasiyNav/DaisyNav";
 
@@ -30,6 +31,7 @@ function App() {
       </div>
       <PriceOption></PriceOption>
       <LineChart></LineChart>
+      <PhoneData></PhoneData>
     </>
   );
 }
