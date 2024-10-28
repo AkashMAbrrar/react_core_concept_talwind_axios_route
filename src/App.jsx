@@ -1,4 +1,5 @@
 import "./App.css";
+import LineChart from "./components/LineChart/LineChart";
 import Navbar from "./components/Navbar/Navbar";
 import PriceOption from "./components/PriceOption/PriceOption";
 // import DaisyNav from "./components/DasiyNav/DaisyNav";
@@ -28,6 +29,7 @@ function App() {
         </div>
       </div>
       <PriceOption></PriceOption>
+      <LineChart></LineChart>
     </>
   );
 }
